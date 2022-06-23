@@ -26,8 +26,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://glitch.com/edit/#!/profile-card-nick)
-- Live Site URL: [Add live site URL here](https://profile-card-nick.glitch.me)
+- Solution URL: [link](https://glitch.com/edit/#!/profile-card-nick)
+- Live Site URL: [link](https://profile-card-nick.glitch.me)
 
 ### Built with
 
