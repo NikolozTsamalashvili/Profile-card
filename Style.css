@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kumbh Sans'sans-serif;
+  background: #19A1AE;
+  font-size: 16px;
+  color: #2E3349;
+  width: 100%;
+  background-image: url(https://cdn.glitch.global/58f49938-b376-4658-a49d-3f1098dde3da/bg-pattern-top.svg?v=1655968989337), url(https://cdn.glitch.global/58f49938-b376-4658-a49d-3f1098dde3da/bg-pattern-bottom.svg?v=1655968989441);
+  background-position: bottom 40vh right 50vw, left 48vw top 50vh;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2E3349;
+    
+}
+
+.name {
+  font-weight: 700;
+  font-size: 18px;
+  color: #2E3349;
+}
+
+.age {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #6B7082;
+  margin-left: 8.5px;
+}
+
+.p1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6B7082;
+    
+}
+
+.p2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1.5px;
+  color: #6B7082;
+}
+
+
+
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 100%;
+  
+}
+
+.profile-card {
+  width: 350px;
+  max-width: 85%;
+  overflow: hidden;
+  background: #FFFFFF;
+  box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+  border-radius: 15px;
+}
+
+.profile-card >  img {
+  width: 100%;
+}
+
+.profile-summary > .age-name {
+  margin-top: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   
+}
+
+.profile-summary > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 28px;
+  margin-top: 13px;
+  border-bottom: 1px solid;
+  border-color: #E8E9EC;
+}
+
+.profile-picture > img {
+  border-radius: 50px;
+  border: 5px solid #FFFFFF;
+  position: absolute;
+  display: block;
+  width: 96px;
+  height: 96px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  border-radius: 11px;
+  padding-top: 19.2px;
+  margin-bottom: 24px;
+}
+
+.followers {
+  margin-left: 47px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+  
+}
+
+.likes {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+  
+  
+}
+
+.photoes {
+  margin-right: 54px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
